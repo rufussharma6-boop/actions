@@ -31,4 +31,4 @@ jobs:
             fi
 
             # Restart the service with the new HTML
-            docker compose up -d --build
+            docker compose up -d --build --force-recreate
